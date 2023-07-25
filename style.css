@@ -148,6 +148,23 @@ span {
 
 }
 
+.icone-seta {
+    display: flex;
+    background-color: #2C343A;
+    align-items: center;
+    width: 190vh;
+    justify-content: end; 
+}
+
+.icone-seta-texto {
+    color: white;
+}
+
+.estrelas {
+    padding-left: 0.9em;
+    padding-top: 0.9em;
+}
+
 
 
 @media screen and  (max-device-width: 700px) {
@@ -188,5 +205,8 @@ span {
     .menu {
         position: fixed;
     }
+
+    
+
 }
 
