@@ -44,6 +44,14 @@ body {
 
 }
 
+.logo {
+    display: none;
+    position: fixed;
+    text-align: center;
+    padding-left: 250px;
+    padding-top: 10px;
+}
+
 .fotos {
     display: flex;
     align-items: center;
@@ -209,6 +217,14 @@ span {
 
     .menu {
         position: fixed;
+    }
+
+    .logo {
+        position: fixed;
+        text-align: center;
+        padding-left: 250px;
+        padding-top: 10px;
+        display: block;
     }
 
     
