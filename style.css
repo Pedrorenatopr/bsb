@@ -49,6 +49,7 @@ body {
     display: none;
     position: fixed;
     padding-top: 10px;
+    font-weight: bold;
 }
 
 .fotos {
