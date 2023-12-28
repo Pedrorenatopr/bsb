@@ -227,6 +227,11 @@ span {
         display: block;
     }
 
+    .logo-teste {
+        display: flex;
+        justify-content: end;
+    }
+
     
 
 }
