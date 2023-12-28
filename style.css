@@ -197,6 +197,7 @@ span {
 
     .menu-lista {
         list-style: none;
+        height: 50%;
     }
 
     .imagens-card {
