@@ -5,206 +5,289 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Cerrado Dicas</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
-    <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1834153097040479');
-        fbq('track', 'PageView');
-        </script>
-        <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=1834153097040479&ev=PageView&noscript=1"
-    /></noscript>
-
+    <title>Cerrado Dicas</title>
 </head>
-<body onresize="mudouTamanho()" >
-    
+<body onresize="mudouTamanho()">
 
-
-
+    <div>
+        <img class="logo" src="logo-5.png" alt="">
+    </div>
 
     <div class="menu">
-        <span id="burguer" class="material-icons md-48" onclick="clickMenu()" >menu</span>
-        <ul class="menu-lista" id="itens" >
-            <li><a href="index.html" class="menu-item">Home</a></li>
-            <li><a href="hoteis.html" class="menu-item">Hotéis</a></li>
-            <li><a href="bares.html" class="menu-item">Bares</a></li>
-            <li><a href="index.html" class="menu-item">Pontos turísticos</a></li>
-            <li><a href="passeios.html" class="menu-item">Passeios</a></li>
+        <div class="icones">
+            <button class="botao"><span id="burguer" class="material-icons md-48" onclick="clickMenu()" >menu</span></button>  
+        </div>
+        <ul class="menu-lista" id="itens">
+            <li><a class="menu-itens" href="#">Home</a></li>
+            <li><a class="menu-itens" href="#">Hotéis</a></li>
+            <li><a class="menu-itens" href="#">Bares</a></li>
+            <li><a class="menu-itens" href="#">Pontos Turísticos</a></li>
+            <li><a class="menu-itens" href="#">Passeios</a></li>
         </ul>
     </div>
-    <div class="logo-teste">
-        <span class="logo">Cerrado Dicas</span>
+
+    <div class="imagem">
+        <img class="imagem-principal" src="Image.png" alt="">
     </div>
+
+    <div class="section-principal">
+        <h1 class="texto-um">Melhores destinos ao redor de Brasília</h1>
+
+        <p class="texto-dois">Viage, aproveite <br>
+            e viva uma vida<br>
+            nova e plena
+        </p>
+
+        <p class="descricao"> Brasília, inaugurada como capital do Brasil em 1960,<br>
+            é uma cidade planeada que se distingue pela sua arquitetura<br>
+            branca e moderna, essencialmente concebida por Oscar Niemeyer. 
+        </p>
+
+        <div class="botoes">
+            <button class="botao-um">Ver mais</button> <!-- <img class="play" src="Play button.png" alt="" width="80px"> <span class="texto-play">Play Demo</span> --> 
+        </div>
+        
+
+    </div>
+
+    <!-- <p class="texto-section-dois">CATEGORY</p>
+    <h1 class="titulo-section-dois">We Offer Best Services</h1>
+
+    <div class="section-dois">
+        <article class="card">
+            <img src="Group 48.png" alt="" class="teste" >
+            <p class="titulo-card">Calculated Weather</p>
+            <p class="texto-card">Built Wicket longer <br> admire do barton <br> vanity itself do in it.</p>
+        </article>
+
+        <article class="card">
+            <img src="Group 51.png" alt="" class="teste">
+            <p class="titulo-card">Best Flights</p>
+            <p class="texto-card">Engrossed listening. <br> Park gate sell they <br> west hard for the.</p>
+        </article>
+
+        <article class="card">
+            <img src="Group 50.png" alt="" class="teste">
+            <p class="titulo-card">Local Events</p>
+            <p class="texto-card">Barton vanity itself do <br> in it. Preferd to men it <br> engrossed listening. </p>
+        </article>
+
+        <article class="card">
+            <img src="Group 49.png" alt="" class="teste">
+            <p class="titulo-card">Customize</p>
+            <p class="texto-card">We deliver outsourced <br> aviation services for <br> military customers</p>
+        </article>
+    </div>
+    -->
+
+    <div class="fundo-um">
+
+        <p class="texto-section-tres">Mais Vistos</p>
+        <h1 class="titulo-section-tres">Top Destinos</h1>
+
+
+        <div class="card-teste">
+            <article class="section-tres">
+                <div class="card-tres">
+                    <img class="img-pais" src="memorial-jk.jpeg" alt="" width="350px" height="350px">
+                    <p class="pais">Memorial JK</p>
+                    <p class="preco">R$10,00</p>
+                    <span id="seta" class="material-icons md-48">near_me</span><span class="dias">Praça Do Cruzeiro</span>
+                    <br><br><br>
+                </div>        
+            </article>
+        
+            <article class="section-tres">
+                <div class="card-tres">
+                    <img class="img-pais" src="pontao.jpeg" alt="" width="350px" height="350px">
+                    <p class="pais">Pontão</p>
+                    <p class="preco">Free</p>
+                    <span id="seta" class="material-icons md-48">near_me</span><span class="dias">Lago Sul</span>
+                    <br><br><br>
+                </div>        
+            </article>
+        
+            <article class="section-tres">
+                <div class="card-tres">
+                    <img class="img-pais" src="catedral.jpeg" alt="" width="350px" height="350px">
+                    <p class="pais">Catedral</p>
+                    <p class="preco">Free</p>
+                    <span id="seta" class="material-icons md-48">near_me</span><span class="dias">Eixo Monumental</span>
+                    <br><br><br>
+                </div>        
+            </article>
+        </div>
+
+    </div>
+
     
-    <br> <br> <br> <br>
+    <div class="fundo-dois">
 
-
-    <h2 class="legenda-hoteis">Torre de TV de Brasília</h2>
-    <article class="cartao-hoteis">
-        <div class="cartao-hoteis-itens">
-            <a href="#"><img src="torre-de-tv.jpg" alt="" class="imagens-card" width="750px"></a><br>
-            <p class="texto-info">A Torre de TV de Brasília é uma torre de transmissão radiofônica e televisiva construída em Brasília <br> e inaugurada em 1967 com 224 metros de altura. Fica no Eixo Monumental, no Jardim Burle Marx</p>
-            <p class="texto-turistico"><span>Horários:</span> de terça a domingo das 09:00hrs até 19:00hrs</p>
-            <p class="texto-turistico"><span>Endereço:</span> Torre de TV de Brasília - Esplanada da Torre - Plano Piloto, Brasília - DF, 70070-300</p>
-            <br><br>
+        <div class="cartao-quatro">
+            <div class="section-quatro">
+                <p class="texto-quatro">Fácil e Rápido</p>
+                <h1 class="texto-h1">Fique nos melhores<br>hotéis de Brasília</h1>
+        
+                <div class="card-quatro">
+                    <img class="img-quatro" src="Group 7.png" alt="">
+                    <div class="texto-card-quatro">
+                        <p class="titulo-quatro">Entre Em Contato</p>
+                        <p class="legenda-quatro">(61) 3424-7000</p>
+                    </div>
+                    <br>
+        
+                    <img class="img-local" src="local.png" alt="" >
+                    <div class="texto-card-quatro">
+                        <p class="titulo-quatro">Nossa Localização</p>
+                        <p class="legenda-quatro">SHTN Trecho 1 Conjunto 1B Bloco C - Asa Norte</p>
+                    </div>
+                    <br>
+        
+                    <img class="img-preco" src="preco.png" alt="">
+                    <div class="texto-card-quatro">
+                        <p class="titulo-quatro">Preço Médio Por Diária</p>
+                        <p class="legenda-quatro">R$ 424,00</p>
+                    </div>
+        
+                </div>
+        
+                <article class="card-quatro-dois">
+                    <div class="card-direita">
+                        <img class="img-card-quatro" src="royal.jpg" alt="" width="400px">
+                        <p class="texto-direita">Royal Tulip</p>
+                        <p class="data">14-29 june</p>
+                        <div class="icones-direita">
+                            <img src="LEAF.png" alt="">
+                            <img src="map icon.png" alt="">
+                            <img src="send.png" alt="">
+                        </div>
+                        <br><br>
+                        <img class="predio" src="building 1.png" alt=""><span class="teste-texto">24 pessoas curtiram</span><span class="coracao"><img src="heart (6) 1.png" alt=""></span>
+                        <br><br><br>
+                    </div>
+        
+        
+                </article>
+                
+            </div>
         </div>
-    </article>
 
-    <h2 class="legenda-hoteis">Estádio Mané Garrincha</h2>
-    <article class="cartao-hoteis">
-        <div class="cartao-hoteis-itens">
-            <a href="#"><img src="mane-garrincha.jpg" alt="" class="imagens-card" width="750px"></a><br>
-            <p class="texto-info">A Arena BRB Mané Garrincha é um estádio de futebol e arena multiuso brasileiro, <br> situado em Brasília, no Distrito Federal. O estádio faz parte do Complexo <br> Poliesportivo Ayrton Senna, que <br> engloba também  o  Ginásio de Esportes Nilson Nelson e o Autódromo.</p>
-            <p class="texto-turistico"><span>Horários:</span> Portão 1, SRPN - Asa Norte, Brasília - DF, 70070-701</p>
-            <p class="texto-turistico"><span>Telefone:</span> <span class="telefone" >(61) 4103-3553</span></p>
-            <br><br>
+    </div>
+
+    
+
+    <!-- 
+    <div class="section-cinco">
+        <div class="texto-cinco">
+            <p class="titulo-cinco">TESTIMONIALS</p>
+            <h1 class="texto-cinco-2">What people say <br> about Us.</h1>
         </div>
-    </article>
 
-    <h2 class="legenda-hoteis">Templo da Boa Vontade</h2>
-    <article class="cartao-hoteis">
-        <div class="cartao-hoteis-itens">
-            <a href="#"><img src="templo-da-boa-vontade.jpg" alt="" class="imagens-card" width="750px"></a><br>
-            <p class="texto-info">Complexo religioso moderno com uma pirâmide de sete lados <br> com piso em espiral e um cristal enorme no topo.</p>
-            <p class="texto-turistico"><span>Horários:</span> de terça a domingo das 08:00hrs até 20:00hrs</p>
-            <p class="texto-turistico"><span><span>Endereço:</span></span> 76 - SGAS 915 Lote 75 - Asa Sul, Brasília - DF, 70390-150</p>
-            <p class="texto-turistico"><span>Telefone:</span> <span class="telefone" >(61) 3114-1070</span></p>
-            <br><br>
+        <div class="card-cinco">
+            <p class="texto-card-cinco">“On the Windows talking painted pasture yet its <br> express parties use. Sure last upon he same as <br> knew next. Of believed or diverted no.” </p>
+            <p class="maike">Maike taylor</p>
+            <p class="maike-pais">Lahore, Pakistan</p>
         </div>
-    </article>
 
-    <h2 class="legenda-hoteis">Complexo Cultural da República</h2>
-    <article class="cartao-hoteis">
-        <div class="cartao-hoteis-itens">
-            <a href="#"><img src="museu-de-brasilia.jpg" alt="" class="imagens-card" width="750px"></a><br>
-            <p class="texto-info">O Complexo Cultural da República João Herculino é um conjunto de edificações destinados <br> a promover eventos culturais em Brasília, capital do Brasil. Pretende-se que esse complexo seja <br> o principal centro cultural da cidade</p>
-            <p class="texto-turistico"><span>Horários:</span>  
-                terça-feira	09:00 – 21:00 <br>
-                quarta-feira	09:00 – 21:00 <br>
-                quinta-feira	09:00 – 21:00 <br>
-                sexta-feira	09:00 – 21:00 <br>
-                sábado	09:00 – 18:00 <br>
-                domingo	09:00 – 18:00 <br>
-                segunda-feira	09:00 – 21:00</p>
-            <p class="texto-turistico"><span><span>Endereço:</span></span> SCTS - Lot 2, Brasília - DF, 70297-400</p>          
-            <br><br>
-        </div>
-    </article>
+    </div>
+    -->
 
-    <h2 class="legenda-hoteis">Memorial JK</h2>
-    <article class="cartao-hoteis">
-        <div class="cartao-hoteis-itens">
-            <a href="#"><img src="memorial-jk.jpg" alt="" class="imagens-card" width="750px"></a><br>
-            <p class="texto-info">O Memorial JK é um museu, mausoléu e centro cultural brasileiro construído para homenagear o 21º <br> presidente do Brasil, Juscelino Kubistchek de Oliveira. Ele está localizado no canteiro central <br> do Eixo Monumental, em Brasília, na Zona Cívico-Administrativa, <br> na Praça do Cruzeiro, a região mais alta do Plano Piloto.</p>
-            <p class="texto-turistico"><span>Horários:</span> de terça a domingo das 09:00hrs até 18:00hrs</p>
-            <p class="texto-turistico"><span>Endereço:</span> Eixo Monumental - Lado Oeste - Praça do Cruzeiro, Brasília - DF, 70070-300</p>
-            <p class="texto-turistico"><span>Telefone:</span> <span class="telefone" >(61) 3225-9451</span></p>
-            <br><br>
-        </div>
-    </article>
 
-    <h2 class="legenda-hoteis">Planetário de Brasília</h2>
-    <article class="cartao-hoteis">
-        <div class="cartao-hoteis-itens">
-            <a href="#"><img src="planetario.jpg" alt="" class="imagens-card" width="750px"></a><br>
-            <p class="texto-info">O Planetário de Brasília é um planetário público de Brasília, sendo o único planetário fixo <br> do Distrito Federal. Foi inaugurado em 1974, e é vinculado a Secretaria de Ciência, <br> Tecnologia e Inovação do Distrito Federal, fazendo parte da Associação Brasileira de Planetários.</p>
-            <p class="texto-turistico"><span>Horários:</span> de terça a domingo das 07:30hrs até 19:00hrs</p>
-            <p class="texto-turistico"><span>Endereço:</span> St. de Divulgação Cultural - Brasília, DF, 70070-350</p>
-            <p class="texto-turistico"><span>Telefone:</span> <span class="telefone">(61) 98199-2692</span></p>
-            <br><br>
-        </div>
-    </article>
+    <div class="galeria-dois">
+        <article class="card-galeria">
+            <p class="texto-g">Bares</p>
+            <a href=""><img src="mercadito.jpg" alt="" class="galeria-dois-img"></a>
+        </article>
+        <article class="card-galeria">
+            <p class="texto-g">Passeios</p>
+            <a href=""><img src="eixao.jpg" alt="" class="galeria-dois-img"></a>
+        </article>
+        <article class="card-galeria">
+            <p class="texto-g">Cafés</p>
+            <a href=""><img src="https://uploads.metropoles.com/wp-content/uploads/2022/03/11120023/WhatsApp-Image-2022-03-09-at-18.22.41-1-1024x682.jpeg" alt="" class="galeria-dois-img"></a>
+        </article>
+        <article class="card-galeria">
+            <p class="texto-g">Cinema</p>
+            <a href=""><img src="cine-divein.jpg" alt="" class="galeria-dois-img"></a>
+        </article>
+        <article class="card-galeria">
+            <p class="texto-g">Cultura</p>
+            <a href=""><img src="ccbb.jpg" alt="" class="galeria-dois-img"></a>
+        </article>
+        <article class="card-galeria">
+            <p class="texto-g">História</p>
+            <a href=""><img src="historia.jpg" alt="" class="galeria-dois-img"></a>
+        </article>
 
-    <h2 class="legenda-hoteis">Ponte Juscelino Kubitschek</h2>
-    <article class="cartao-hoteis">
-        <div class="cartao-hoteis-itens">
-            <a href="#"><img src="ponte-jk.jpeg" alt="" class="imagens-card" width="750px"></a><br>
-            <p class="texto-info">A Ponte Juscelino Kubitschek, também conhecida como Ponte JK ou Terceira Ponte, está situada <br> em Brasília, ligando o Lago Sul, Paranoá e São Sebastião à parte central de Brasília, <br> através do Eixo Monumental, atravessando o Lago Paranoá.</p>
-            <p class="texto-turistico"><span>Comprimento total:</span> 1.200 m</p>
-            <p class="texto-turistico"><span>Altura:</span> 63 m</p>
-            <p class="texto-turistico"><span>Endereço:</span> Brasília - DF, 70297-400</p>
-            <br><br>
-        </div>
-    </article>
 
-    <h2 class="legenda-hoteis">Congresso Nacional</h2>
-    <article class="cartao-hoteis">
-        <div class="cartao-hoteis-itens">
-            <a href="#"><img src="congresso.jpg" alt="" class="imagens-card" width="750px"></a><br>
-            <p class="texto-info">O Congresso Nacional é o órgão constitucional que exerce, no âmbito federal, as funções do poder <br> legislativo, quais sejam, elaborar/aprovar leis e fiscalizar  o Estado brasileiro, <br> bem como administrar e julgar. <br> O Congresso é bicameral,   logo composto por duas Casas: o Senado Federal</p>
-            <p class="texto-turistico"><span>Arquiteto:</span> Oscar Niemeyer</p>
-            <p class="texto-turistico"><span>Horários:</span> de segunda a domingo das 09:00hrs até 17:00hrs</p>
-            <p class="texto-turistico"><span>Endereço:</span> Palácio do Congresso Nacional - Praça dos 3 Poderes, Brasília - DF, 70160-900</p>
-            <br><br>
-        </div>
-    </article>
+    </div>
 
-    <h2 class="legenda-hoteis">Torre de TV Digital</h2>
-    <article class="cartao-hoteis">
-        <div class="cartao-hoteis-itens">
-            <a href="#"><img src="torre-digital.jpg" alt="" class="imagens-card" width="750px"></a><br>
-            <p class="texto-info">A Torre de TV Digital de Brasília é uma torre de transmissão televisiva, projetada para transmitir <br> o sinal de TV Digital para todo Distrito Federal e algumas cidades do Entorno. </p>
-            <p class="texto-turistico"><span>Arquiteto:</span> Oscar Niemeyer</p>
-            <p class="texto-turistico"><span>Altura:</span> 120 m</p>
-            <p class="texto-turistico"><span>Horários:</span>  
-                quarta-feira	12:00 – 18:00 <br>
-                quinta-feira	12:00 – 18:00 <br>
-                sexta-feira	12:00 – 18:00 <br>
-                sábado	09:00 – 18:00 <br>
-                domingo	09:00 – 18:00 <br>
-                segunda-feira	Fechado <br>
-                terça-feira	12:00 – 18:00</p>
-            <p class="texto-turistico"><span>Endereço:</span> Setor Habitacional Taquari - Lago Norte, Brasília - DF, 70000-000</p>
-            <br><br>
-        </div>
-    </article>
+    <!-- 
+    <div class="section-seis">
+        <img class="patrocinio" src="Capturar-dois.PNG" alt="" height="30px">
+        <img id="patrocinio-img" class="patrocinio" src="image 30.png" alt="" height="30px">
+        <img class="patrocinio" src="Capturar-um.PNG" alt="" height="30px" >
+        <img class="patrocinio" src="Capturar-tres.PNG" alt="" height="30px">
+        <img class="patrocinio" src="Capturar-quatro.PNG" alt="" height="30px">
+    </div>
 
-    <h2 class="legenda-hoteis">Biblioteca Nacional de Brasília</h2>
-    <article class="cartao-hoteis">
-        <div class="cartao-hoteis-itens">
-            <a href="#"><img src="biblioteca.jpg" alt="" class="imagens-card" width="750px"></a><br>
-            <p class="texto-info">A Biblioteca Nacional de Brasília ou Biblioteca Nacional de Brasília Leonel de Moura Brizola <br> é uma biblioteca brasileira, situada na cidade de Brasília, no Distrito Federal, próxima a Rodoviária </p>
-            <p class="texto-turistico"><span>Arquiteto:</span> Oscar Niemeyer</p>
-            <p class="texto-turistico"><span>Horários:</span>  quarta-feira	08:00 – 20:00
-                quinta-feira	08:00 – 20:00 <br>
-                sexta-feira	08:00 – 20:00 <br>
-                sábado	08:00 – 14:00 <br>
-                domingo	08:00 – 14:00 <br>
-                segunda-feira	09:00 – 20:00 <br>
-                terça-feira	08:00 – 20:00</p>
-            <p class="texto-turistico"><span>Endereço:</span> Setor Cultural da República, Área Cívica, Lote s/n Edíficio da Biblioteca Nacional</p>
-            <p class="texto-turistico"><span>Telefone:</span> <span class="telefone">(61) 3325-6257</span></p>
-            <br><br>
-        </div>
-    </article>
+    <div class="section-sete">
+        <div class="itens-sete">
+            <h1 class="texto-sete">Subscribe to get information, latest news and other <br> interesting offers about Jadoo</h1>
+            <div class="icones-sete">
+                <a class="icones-sete-itens" href="#"><input class="email" type="email"></a>
+                <a class="icones-sete-itens" href="#"><button class="botao-sete">Subscribe</button></a>
+            </div>
+        </div>    
+    </div>
+     -->
 
-    <h2 class="legenda-hoteis">Santuário São João Bosco</h2>
-    <article class="cartao-hoteis">
-        <div class="cartao-hoteis-itens">
-            <a href="#"><img src="santuario-dombosco.jpg" alt="" class="imagens-card" width="750px"></a><br>
-            <p class="texto-info">O Santuário Dom Bosco, também chamado pelo nome oficial, Santuário São João Bosco, é uma <br> igreja católica de Brasília, dedicada ao segundo padroeiro da cidade, São João Bosco,<br> o Dom Bosco, que teria profetizado a existência da capital brasileira durante um sonho. </p>
-            <p class="texto-turistico"><span>Arquiteto:</span> Carlos Alberto Naves</p>
-            <p class="texto-turistico"><span>Endereço:</span> Quadra 702 Sul Bloco B, SHCS, Brasília - DF</p>
-            <p class="texto-turistico"><span>Telefone:</span> <span class="telefone">(61) 3323-5562</span></p>
-            <br><br>
-        </div>
-    </article>
-
+    
+    <!-- 
     <footer class="footer">
+        <h1 class="titulo-footer">Jadoo.</h1>
+        <p class="legenda-footer">Book your trip in minute, get full <br> Control for much longer.</p>
 
-        <div class="texto-footer">
-            <p>Desenvolvido por Pedro Renato</p>
-            <p>copyright ©️ 2023</p>
+        <div class="section-footer">
+            <ul class="lista-footer">
+                
+                <li><a class="itens-footer" href="#"><span class="inicio-footer">Company</span></a></li>
+                <li><a class="itens-footer" href="#"><span class="inicio-footer">Company</span></a></li>
+                <li><a class="itens-footer" href="#"><span class="inicio-footer">Company</span></a></li>
+                <li><a class="itens-footer" href="#">Careers</a></li>
+                <li><a class="itens-footer" href="#">About</a></li>
+                <li><a class="itens-footer" href="#">Mobile</a></li>
+                <li><a class="itens-footer" href="#">Help/FAQ</a></li>
+                <li><a class="itens-footer" href="#">Press</a></li>
+                <li><a class="itens-footer" href="#">Affilates</a></li>
+                <li><a class="itens-footer" href="#">Airlinefees</a></li>
+                <li><a class="itens-footer" href="#">Airline</a></li>
+                <li><a class="itens-footer" href="#">Low fare tips</a></li>
+                
+            </ul>
         </div>
+
+        <div class="redes">
+            <img src="Social (2).png" alt="">
+            <img src="Social (1).png" alt="">
+            <img src="Social.png" alt="">
+            
+            <p class="texto-app">Discover our app</p>
+            <img src="Google Play.png" alt="">
+            <img src="Play Store.png" alt="">
+        </div>
+
+        <p class="copy">All rights reserved@jadoo.co</p>
+        <br>
     </footer>
+     -->
+    <br><br><br>
+
+        
+
+
+
 
     <script>
 
@@ -224,6 +307,9 @@
             }
         }
     </script>
+
+
     
 </body>
 </html>
+
